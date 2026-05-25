@@ -1,0 +1,6 @@
+{
+  "name": "Mozhdeh's Birthday Scrapbook",
+  "description": "An interactive cinematic interactive birthday website designed as a beautiful memory scrapbook and emotional paper clipboard journal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
