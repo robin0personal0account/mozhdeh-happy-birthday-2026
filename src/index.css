@@ -38,12 +38,18 @@
   }
 
   .journal-lined {
-    background: repeating-linear-gradient(
-      transparent,
-      transparent 27px,
-      rgba(74, 110, 224, 0.1) 27px,
-      rgba(74, 110, 224, 0.1) 28px
-    );
+    background-color: #f6f3eb;
+    background-image: 
+      repeating-linear-gradient(
+        transparent,
+        transparent 27px,
+        rgba(74, 110, 224, 0.08) 27px,
+        rgba(74, 110, 224, 0.08) 28px
+      ),
+      radial-gradient(rgba(0,0,0,0.03) 1px, transparent 0),
+      radial-gradient(rgba(0,0,0,0.02) 2px, transparent 0);
+    background-size: auto, 8px 8px, 24px 24px;
+    background-position: 0 0, 0 0, 4px 4px;
   }
 
   .blueprint-grid {
